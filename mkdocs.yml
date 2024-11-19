@@ -1,0 +1,93 @@
+site_name: STTK – The Systematic Trader's Toolkit
+#site_url: https://www.sttk.org
+copyright: Copyright &copy; 2024-2024 Nils Kujath
+extra:
+  generator: false
+nav:
+  - Home: index.md
+  - Quickstart Guide: quickstart-guide.md
+  - Documentation:
+    - Overview: documentation/overview.md
+    - Getting Started:
+      - Installation: documentation/getting-started/installation.md
+      - Jupyter Notebook: documentation/getting-started/jupyter-notebook.md
+theme:
+  icon:
+#    logo: octicons/code-16
+    logo: material/distribute-horizontal-center
+  font:
+    text: Robot Serif
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: white
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+#    - navigation.tabs.sticky
+#    - navigation.sections
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.footnote.tooltips
+    - navigation.top
+plugins:
+  - search
+#  - git-revision-date-localized
+  - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_caption: false
+       caption_position: bottom
+       background: white
+       shadow: true
+       manual: false
+repo_url: https://github.com/NilsKujath/sttk
+repo_name: nilskujath/sttk
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - css/extra.css
