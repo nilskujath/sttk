@@ -1,5 +1,5 @@
 site_name: STTK – The Systematic Trader's Toolkit
-#site_url: https://www.sttk.org
+site_url: https://www.sttk.org
 copyright: Copyright &copy; 2024-2024 Nils Kujath
 extra:
   generator: false
