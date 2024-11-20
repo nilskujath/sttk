@@ -5,12 +5,22 @@ extra:
   generator: false
 nav:
   - Home: index.md
-  - Quickstart Guide: quickstart-guide.md
+  - Tutorial:
+    - Overview: tutorial/overview.md
+    - Quickstart Guide: tutorial/quickstart-guide.md
   - Documentation:
     - Overview: documentation/overview.md
     - Getting Started:
       - Installation: documentation/getting-started/installation.md
       - Jupyter Notebook: documentation/getting-started/jupyter-notebook.md
+    - Historical Market Data:
+      - Module Overview: documentation/historical-market-data/module-overview.md
+      - Supported Data Sources: documentation/historical-market-data/supported-data-sources.md
+      - Supported Storage Options: documentation/historical-market-data/supported-storage-options.md
+    - Ontology:
+      - Overview: documentation/ontology/overview.md
+      - Event Types: documentation/ontology/event-types.md
+      - Non-Event Types: documentation/ontology/non-event-types.md
 theme:
   icon:
 #    logo: octicons/code-16

@@ -8,13 +8,13 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Quickstart Guide__
+-   :material-book-education:{ .lg .middle } __See the Tutorial__
 
     ---
 
     Take the learning-by-doing approach to get up and running in no time
 
-    [:octicons-arrow-right-24: Quickstart Guide](quickstart-guide.md)
+    [:octicons-arrow-right-24: Tutorial](tutorial/overview.md)
 
 -   :material-file-document-multiple:{ .lg .middle } __Read the Documentation__
 

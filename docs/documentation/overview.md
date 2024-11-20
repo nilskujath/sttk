@@ -4,11 +4,11 @@ hide:
   - toc
 ---
 
-# :material-file-document-multiple: Welcome to the Docs 
+# :material-file-document-multiple: Welcome to the **Docs**
 
 <div class="grid cards" markdown>
 
--   :material-download:{ .lg .middle } __Installation__
+-   :material-download:{ .lg .middle } __Getting Started__
 
     ---
 
@@ -20,8 +20,17 @@ hide:
 
     ---
 
-    Learn how to collect and manage historical market data for strategy development and validation
+    Learn how to collect and manage historical market data with the `HistoricalMarketDataCollector` module
 
-    [:octicons-arrow-right-24: Historical Data Collector Module](#)
+    [:octicons-arrow-right-24: Historical Market Data](historical-market-data/module-overview.md)
+
+
+-   :material-file-tree-outline:{ .lg .middle } __Ontology__
+
+    ---
+
+    Understand which kinds of objects exist in the toolkit's infrastructure (e.g. event types, interval types, etc.) 
+
+    [:octicons-arrow-right-24: Ontology](ontology/overview.md)
 
 </div>

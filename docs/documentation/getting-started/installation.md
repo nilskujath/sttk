@@ -13,7 +13,7 @@ hide:
 
     ---
 
-    :simple-ticktick: **Step 1**: Create a project directory.
+    **Step 1**: Create a project directory.
     ```bash
     mkdir sttk-testdrive
     cd sttk-testdrive
@@ -21,14 +21,14 @@ hide:
 
     ---
 
-    :simple-ticktick: **Step 2**: Create a virtual environment. 
+    **Step 2**: Create a virtual environment. 
     ```bash
     python3 -m venv ./sttk-testenv
     ```
 
     ---
 
-    :simple-ticktick: **Step 3**: Activate the virtual environment.
+    **Step 3**: Activate the virtual environment.
 
     === "MacOS/Linux"
 
@@ -44,7 +44,7 @@ hide:
 
     ---
 
-    :simple-ticktick: **Step 4**: Install the `sttk` library via the `pip` package installer:
+    **Step 4**: Install the `sttk` library via the `pip` package installer:
     ```bash
     pip install sttk
     ```
@@ -55,23 +55,3 @@ hide:
 
         This section is under construction!
         STTK is still a work in progress, but don’t worry—a pre-release version is just around the corner. Grab a coffee and hang tight!
-
----
-
-<div class="grid cards" markdown>
-
--   :material-skip-next:{ .lg .middle } __Next Section__
-
-    ---
-
-    [:octicons-arrow-right-24: Jupyter Notebook](../../documentation/getting-started/jupyter-notebook.md)
-
-
-
--   :material-table-of-contents:{ .lg .middle } __Back to Documentation Overview__
-
-    ---
-
-    [:octicons-arrow-right-24: Documentation Overview](../../documentation/overview.md)
-
-</div>
